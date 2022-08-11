@@ -1,0 +1,3 @@
+fileIncludePatterns: 'resource_families/**/.csv'
+dryRun: true
+verbose: true

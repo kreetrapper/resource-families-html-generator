@@ -1,11 +1,10 @@
 name: Check all links in the repository
 on: [push]
-  workflow_call:
-    inputs:
-      config:
-        type: 'string'
-        description: 'The path to the link-check config file'
-        default: 'config/link-check/config.yml'
+  inputs:
+    config:
+      type: 'string'
+      description: 'The path to the link-check config file'
+      default: 'config/link-check/config.yml'
 jobs:
   run:
     name: Link Check All

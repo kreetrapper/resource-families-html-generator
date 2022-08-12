@@ -1,0 +1,8 @@
+name: Call a reusable workflow
+
+on:
+  push:
+
+jobs:
+  call-workflow:
+    uses: kreetrapper/resource-families-html-generator/.github/workflows/link-check-all.yml

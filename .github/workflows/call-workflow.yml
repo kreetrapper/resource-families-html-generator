@@ -5,4 +5,4 @@ on:
 
 jobs:
   call-workflow:
-    uses: kreetrapper/resource-families-html-generator/.github/workflows/link-check-all.yml@v1
+    uses: kreetrapper/resource-families-html-generator/.github/workflows/link-check-all.yml@master

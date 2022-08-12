@@ -6,3 +6,5 @@ on:
 jobs:
   call-workflow:
     uses: kreetrapper/resource-families-html-generator/.github/workflows/link-check-all.yml@master
+    with:
+      config: 'config/link-check/config.yml'
